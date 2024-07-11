@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.da79e69f.css",
+    "main.js": "/static/js/main.c407a1b3.js",
+    "static/media/VideoLive.mp4": "/static/media/VideoLive.a309a50e9c403948ae30.mp4",
+    "static/media/MainPage.png": "/static/media/MainPage.1e40edafb608100146ee.png",
+    "static/media/PerformanceType.png": "/static/media/PerformanceType.96970e3adcbb6d1bf9af.png",
+    "static/media/StageShow.png": "/static/media/StageShow.cd779bdd2bb8db5adab9.png",
+    "static/media/TeamPerformance.png": "/static/media/TeamPerformance.15778a4a343ba19713ec.png",
+    "static/media/Achievement.png": "/static/media/Achievement.a9dff595777a237078c0.png",
+    "static/media/AboutSatender.png": "/static/media/AboutSatender.e977ab183487f95a1d99.png",
+    "static/media/BookingType.png": "/static/media/BookingType.4e46a62dc89456ca834c.png",
+    "static/media/SocialMedia.png": "/static/media/SocialMedia.bf0178f65543404edb66.png",
+    "static/media/ibaadatIcon.png": "/static/media/ibaadatIcon.2fa38860499c5422f74b.png",
+    "static/media/MainCover.jpg": "/static/media/MainCover.19c659ad20f1b2a01cca.jpg",
+    "static/media/ForClass.jpg": "/static/media/ForClass.2980df83d4f96aacecf1.jpg",
+    "static/media/TeamImageMain.jpg": "/static/media/TeamImageMain.310656ac9e9cfb11f793.jpg",
+    "static/media/Award.jpg": "/static/media/Award.417d8ce7be485cdd85a3.jpg",
+    "static/media/ShowImage2.jpg": "/static/media/ShowImage2.8cdd0f30abb314d21b80.jpg",
+    "static/media/ShowImage4.jpg": "/static/media/ShowImage4.b3296dd5985bfde6afd1.jpg",
+    "static/media/ShowImage.jpg": "/static/media/ShowImage.9a199955f4f2359dc751.jpg",
+    "static/media/ShowImage3.jpg": "/static/media/ShowImage3.19d02870c877a4d33e4f.jpg",
+    "index.html": "/index.html",
+    "main.da79e69f.css.map": "/static/css/main.da79e69f.css.map",
+    "main.c407a1b3.js.map": "/static/js/main.c407a1b3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.da79e69f.css",
+    "static/js/main.c407a1b3.js"
+  ]
+}

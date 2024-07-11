@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap");
+
+.container-contact {
+  width: 100%;
+  height: fit-content;
+  padding: 20px;
+  background-color: rgb(48, 47, 47);
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Adding css properties to the Left properties */
+.contact-left {
+  flex: 1;
+  width: 50%;
+  height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  flex-direction: column;
+  border: 2px solid white;
+  /* border-radius: 0px 40px 0 40px; */
+  border-radius: 40px 0 40px 0;
+  box-shadow: 2px 1px 4px 2px white;
+}
+
+.contact-text-left {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+}
+
+.contact-ul-details {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+
+.contact-left-icons-list {
+  text-align: center;
+  font-size: 1.2rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+}
+
+/* Right container */
+.contact-left-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 15px;
+}
+
+.contact-right {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact-right-image {
+  width: 80%;
+  height: 80%;
+  border-radius: 15px;
+}
+
+.contact-right-img-text {
+  font-family: "Roboto", sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 20px;
+}
+
+.icons:hover {
+  text-decoration: underline;
+}
+
+/* ================ Responsiveness ========================================= */
+@media only screen and (max-width: 992px) {
+  .container-contact {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .container-contact {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-left {
+    width: 100%;
+    height: fit-content;
+    margin-bottom: 15px;
+    padding: 13px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-left-details {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-image {
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+  }
+  .contact-text-left {
+    font-size: 16px;
+  }
+}
